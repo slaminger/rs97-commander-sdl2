@@ -1,4 +1,4 @@
-rs97-commander-sdl2 (Dingux Commander)
+rs97-commander-sdl2 (DinguxCommander)
 
 Modify based on https://github.com/glebm/rs97-commander
 
