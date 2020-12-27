@@ -1,8 +1,8 @@
-rs97-commander-sdl2
+rs97-commander-sdl2 (Dingux Commander)
 
 Modify based on https://github.com/glebm/rs97-commander
 
-supports Odroid Go Advance devices and clones using ArkOS
+supports OGA, RGB10, and RK2020 devices only using ArkOS.  For the RG351P, checkout the rg351p branch.
 
 Build instructions (Works best in 32 bit Arm environment)
 ==================
