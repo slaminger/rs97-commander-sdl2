@@ -48,10 +48,10 @@ std::string input_start_btn;
     
     //from: https://www.walletfox.com/course/parseconfigfile.php
     // std::ifstream is RAII, i.e. no need to call close
-    std::ifstream cFile ("/home/ark/.config/retroarch32/retroarch.cfg");
+    std::ifstream cFile ("/home/odroid/.config/retroarch/retroarch.cfg");
     if (cFile.is_open())
     {
-     std::cout << "Using: " << "/home/ark/.config/retroarch32/retroarch.cfg" << '\n';
+     std::cout << "Using: " << "/home/odroid/.config/retroarch/retroarch.cfg" << '\n';
         std::string line;
         while(getline(cFile, line)){
             line.erase(std::remove_if(line.begin(), line.end(), isspace),
